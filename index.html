@@ -102,37 +102,50 @@
           </div>
           <p class="max-w-xl leading-7 text-muted">这一块要放在网页前半部分，让学生第一眼看到实验室能产出什么、自己加入后可能获得什么成长。</p>
         </div>
-        <div class="grid gap-5 md:grid-cols-3">
-          <article class="rounded border border-line bg-white p-6">
-            <i data-lucide="file-text" class="h-7 w-7 text-blue"></i>
-            <h3 class="mt-5 text-xl font-bold">代表性论文</h3>
-            <p class="mt-3 text-sm leading-6 text-muted">展示近期发表论文、期刊会议名称、学生作者位置和研究主题。可以放3到5篇最能说明实力的成果。</p>
-            <ul class="mt-5 space-y-3 text-sm">
-              <li>• 论文题目 / 期刊会议 / 年份</li>
-              <li>• 学生一作或共同作者标注</li>
-              <li>• 研究方向标签：视觉导航、光学传感等</li>
-            </ul>
-          </article>
-          <article class="rounded border border-line bg-white p-6">
-            <i data-lucide="trophy" class="h-7 w-7 text-blue"></i>
-            <h3 class="mt-5 text-xl font-bold">项目与竞赛</h3>
-            <p class="mt-3 text-sm leading-6 text-muted">招生页很需要“正在做事”的感觉。把项目平台、竞赛获奖、工程演示照片放出来，会比纯文字更有说服力。</p>
-            <ul class="mt-5 space-y-3 text-sm">
-              <li>• 科研项目或平台建设</li>
-              <li>• 竞赛、创新训练、工程实践</li>
-              <li>• 设备、算法、系统演示成果</li>
-            </ul>
-          </article>
-          <article class="rounded border border-line bg-white p-6">
-            <i data-lucide="graduation-cap" class="h-7 w-7 text-blue"></i>
-            <h3 class="mt-5 text-xl font-bold">培养与去向</h3>
-            <p class="mt-3 text-sm leading-6 text-muted">学生最关心的是“我来了能学到什么”。这里写训练方式、导师指导、学术汇报、毕业去向或发展机会。</p>
-            <ul class="mt-5 space-y-3 text-sm">
-              <li>• 论文写作与英文汇报训练</li>
-              <li>• 实验系统搭建与算法实现</li>
-              <li>• 升学、就业、交流机会</li>
-            </ul>
-          </article>
+        <div class="grid auto-rows-[210px] gap-4 md:grid-cols-4">
+          <figure class="group relative overflow-hidden rounded bg-ink md:col-span-2 md:row-span-2">
+            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80" alt="代表性论文和研究成果" class="h-full w-full object-cover opacity-90 transition duration-500 group-hover:scale-105" />
+            <figcaption class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink via-ink/70 to-transparent p-6 text-white">
+              <p class="text-sm font-semibold text-gold">论文成果</p>
+              <h3 class="mt-1 text-2xl font-bold">代表性论文与发表记录</h3>
+              <p class="mt-2 text-sm leading-6 text-white/80">这里以后换成论文首页截图、录用邮件截图、会议海报或学生一作成果。</p>
+            </figcaption>
+          </figure>
+          <figure class="group relative overflow-hidden rounded bg-ink">
+            <img src="https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=800&q=80" alt="实验设备和科研平台" class="h-full w-full object-cover opacity-90 transition duration-500 group-hover:scale-105" />
+            <figcaption class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink to-transparent p-4 text-white">
+              <h3 class="font-bold">实验平台</h3>
+              <p class="mt-1 text-xs text-white/75">设备、传感器、测试环境</p>
+            </figcaption>
+          </figure>
+          <figure class="group relative overflow-hidden rounded bg-ink">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80" alt="项目开发和工程演示" class="h-full w-full object-cover opacity-90 transition duration-500 group-hover:scale-105" />
+            <figcaption class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink to-transparent p-4 text-white">
+              <h3 class="font-bold">项目演示</h3>
+              <p class="mt-1 text-xs text-white/75">算法、系统、工程实践</p>
+            </figcaption>
+          </figure>
+          <figure class="group relative overflow-hidden rounded bg-ink">
+            <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=800&q=80" alt="学生组会汇报" class="h-full w-full object-cover opacity-90 transition duration-500 group-hover:scale-105" />
+            <figcaption class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink to-transparent p-4 text-white">
+              <h3 class="font-bold">学术汇报</h3>
+              <p class="mt-1 text-xs text-white/75">组会、presentation、论文讨论</p>
+            </figcaption>
+          </figure>
+          <figure class="group relative overflow-hidden rounded bg-ink">
+            <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=800&q=80" alt="竞赛和项目展示" class="h-full w-full object-cover opacity-90 transition duration-500 group-hover:scale-105" />
+            <figcaption class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink to-transparent p-4 text-white">
+              <h3 class="font-bold">竞赛展示</h3>
+              <p class="mt-1 text-xs text-white/75">比赛、路演、获奖照片</p>
+            </figcaption>
+          </figure>
+          <div class="rounded border border-line bg-white p-5 md:col-span-2">
+            <div class="flex items-center gap-3">
+              <i data-lucide="image-plus" class="h-7 w-7 text-blue"></i>
+              <h3 class="text-xl font-bold">这一页应该放什么？</h3>
+            </div>
+            <p class="mt-4 text-sm leading-6 text-muted">优先放真实图片：论文首页、会议汇报、实验设备、项目演示、比赛获奖、学生合影。每张图只配一句短说明，别写大段文字。</p>
+          </div>
         </div>
       </div>
     </section>
