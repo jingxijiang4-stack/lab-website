@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NRC实验室招生 | 南京航空航天大学</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: '#172033',
+            muted: '#647084',
+            line: '#D9E0EA',
+            blue: '#134A7C',
+            cyan: '#2A9DAD',
+            gold: '#B8872D',
+            paper: '#F7F9FC'
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: Inter, "Microsoft YaHei", system-ui, sans-serif; }
+    .photo {
+      background: linear-gradient(135deg, #dfe7ef, #f8fafc);
+    }
+  </style>
+</head>
+<body class="bg-paper text-ink">
+  <nav class="fixed inset-x-0 top-0 z-50 border-b border-line bg-white/95 backdrop-blur">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-5 py-3">
+      <a href="#" class="flex items-center gap-3">
+        <span class="grid h-9 w-9 place-items-center rounded bg-blue text-white font-bold">N</span>
+        <span class="font-semibold tracking-tight">NRC实验室招生</span>
+      </a>
+      <div class="hidden items-center gap-7 text-sm text-muted md:flex">
+        <a href="#outcomes" class="hover:text-blue">成果展示</a>
+        <a href="#activities" class="hover:text-blue">科研活动</a>
+        <a href="#research" class="hover:text-blue">研究方向</a>
+        <a href="#join" class="hover:text-blue">加入我们</a>
+      </div>
+      <a href="#join" class="inline-flex items-center gap-2 rounded bg-blue px-4 py-2 text-sm font-semibold text-white hover:bg-[#0f3d67]">
+        <i data-lucide="send" class="h-4 w-4"></i>
+        申请加入
+      </a>
+    </div>
+  </nav>
+
+  <header class="relative overflow-hidden bg-white pt-24">
+    <div class="mx-auto grid max-w-7xl gap-10 px-5 pb-14 pt-12 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
+      <div>
+        <p class="mb-4 inline-flex items-center gap-2 rounded bg-cyan/10 px-3 py-1 text-sm font-semibold text-cyan">
+          <i data-lucide="sparkles" class="h-4 w-4"></i>
+          面向硕士生、博士生和科研助理开放
+        </p>
+        <h1 class="max-w-3xl text-4xl font-bold leading-tight tracking-tight md:text-6xl">
+          加入NRC实验室，一起做真实、有成果、有成长的科研。
+        </h1>
+        <p class="mt-6 max-w-2xl text-lg leading-8 text-muted">
+          我们关注视觉导航、先进光学传感、大气与空间光学、多源感知与信息融合。这里既有论文发表和科研项目，也有会议展示、实验平台、竞赛实践和团队交流。
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="#outcomes" class="inline-flex items-center gap-2 rounded bg-blue px-5 py-3 font-semibold text-white hover:bg-[#0f3d67]">
+            看成果展示
+            <i data-lucide="arrow-right" class="h-4 w-4"></i>
+          </a>
+          <a href="#activities" class="inline-flex items-center gap-2 rounded border border-line bg-white px-5 py-3 font-semibold text-blue hover:border-blue">
+            看科研活动
+            <i data-lucide="images" class="h-4 w-4"></i>
+          </a>
+        </div>
+      </div>
+      <div class="grid gap-3 sm:grid-cols-2">
+        <div class="photo aspect-[4/5] overflow-hidden rounded">
+          <img src="https://images.unsplash.com/photo-1581092921461-39b9d08a9b21?auto=format&fit=crop&w=900&q=80" alt="实验室科研设备" class="h-full w-full object-cover" />
+        </div>
+        <div class="grid gap-3">
+          <div class="photo aspect-[16/10] overflow-hidden rounded">
+            <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80" alt="学生科研讨论" class="h-full w-full object-cover" />
+          </div>
+          <div class="bg-blue p-6 text-white rounded">
+            <div class="text-3xl font-bold">招生中</div>
+            <p class="mt-3 text-sm leading-6 text-white/80">欢迎自动化、导航、光学、图像处理、计算机、电子信息等方向同学联系。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="outcomes" class="py-20">
+      <div class="mx-auto max-w-7xl px-5">
+        <div class="mb-10 flex flex-col justify-between gap-4 md:flex-row md:items-end">
+          <div>
+            <p class="text-sm font-semibold uppercase tracking-wider text-gold">老师重点一</p>
+            <h2 class="mt-2 text-3xl font-bold md:text-4xl">成果展示：论文、项目和学生成长</h2>
+          </div>
+          <p class="max-w-xl leading-7 text-muted">这一块要放在网页前半部分，让学生第一眼看到实验室能产出什么、自己加入后可能获得什么成长。</p>
+        </div>
+        <div class="grid gap-5 md:grid-cols-3">
+          <article class="rounded border border-line bg-white p-6">
+            <i data-lucide="file-text" class="h-7 w-7 text-blue"></i>
+            <h3 class="mt-5 text-xl font-bold">代表性论文</h3>
+            <p class="mt-3 text-sm leading-6 text-muted">展示近期发表论文、期刊会议名称、学生作者位置和研究主题。可以放3到5篇最能说明实力的成果。</p>
+            <ul class="mt-5 space-y-3 text-sm">
+              <li>• 论文题目 / 期刊会议 / 年份</li>
+              <li>• 学生一作或共同作者标注</li>
+              <li>• 研究方向标签：视觉导航、光学传感等</li>
+            </ul>
+          </article>
+          <article class="rounded border border-line bg-white p-6">
+            <i data-lucide="trophy" class="h-7 w-7 text-blue"></i>
+            <h3 class="mt-5 text-xl font-bold">项目与竞赛</h3>
+            <p class="mt-3 text-sm leading-6 text-muted">招生页很需要“正在做事”的感觉。把项目平台、竞赛获奖、工程演示照片放出来，会比纯文字更有说服力。</p>
+            <ul class="mt-5 space-y-3 text-sm">
+              <li>• 科研项目或平台建设</li>
+              <li>• 竞赛、创新训练、工程实践</li>
+              <li>• 设备、算法、系统演示成果</li>
+            </ul>
+          </article>
+          <article class="rounded border border-line bg-white p-6">
+            <i data-lucide="graduation-cap" class="h-7 w-7 text-blue"></i>
+            <h3 class="mt-5 text-xl font-bold">培养与去向</h3>
+            <p class="mt-3 text-sm leading-6 text-muted">学生最关心的是“我来了能学到什么”。这里写训练方式、导师指导、学术汇报、毕业去向或发展机会。</p>
+            <ul class="mt-5 space-y-3 text-sm">
+              <li>• 论文写作与英文汇报训练</li>
+              <li>• 实验系统搭建与算法实现</li>
+              <li>• 升学、就业、交流机会</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="activities" class="bg-white py-20">
+      <div class="mx-auto max-w-7xl px-5">
+        <div class="mb-10">
+          <p class="text-sm font-semibold uppercase tracking-wider text-gold">老师重点二</p>
+          <h2 class="mt-2 text-3xl font-bold md:text-4xl">科研活动：用照片证明实验室氛围</h2>
+          <p class="mt-4 max-w-3xl leading-7 text-muted">老师照片里特别提到 presentation、人像、比赛、实验、团建。你应该把这些做成一个照片墙，而不是藏在很下面。</p>
+        </div>
+        <div class="grid gap-4 md:grid-cols-3">
+          <figure class="overflow-hidden rounded border border-line bg-paper">
+            <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=900&q=80" alt="组会与presentation" class="aspect-[4/3] w-full object-cover" />
+            <figcaption class="p-4">
+              <h3 class="font-bold">组会与Presentation</h3>
+              <p class="mt-1 text-sm text-muted">放学生汇报、论文讨论、会议展示照片。</p>
+            </figcaption>
+          </figure>
+          <figure class="overflow-hidden rounded border border-line bg-paper">
+            <img src="https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80" alt="实验平台与设备" class="aspect-[4/3] w-full object-cover" />
+            <figcaption class="p-4">
+              <h3 class="font-bold">实验与平台</h3>
+              <p class="mt-1 text-sm text-muted">放设备调试、实验环境、系统测试照片。</p>
+            </figcaption>
+          </figure>
+          <figure class="overflow-hidden rounded border border-line bg-paper">
+            <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=80" alt="比赛和项目展示" class="aspect-[4/3] w-full object-cover" />
+            <figcaption class="p-4">
+              <h3 class="font-bold">竞赛与项目展示</h3>
+              <p class="mt-1 text-sm text-muted">放比赛、路演、海报展示、项目验收照片。</p>
+            </figcaption>
+          </figure>
+          <figure class="overflow-hidden rounded border border-line bg-paper md:col-span-2">
+            <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80" alt="团队合影和团建" class="aspect-[16/7] w-full object-cover" />
+            <figcaption class="p-4">
+              <h3 class="font-bold">团队合影与团建</h3>
+              <p class="mt-1 text-sm text-muted">招生页一定要有人。真实的人像、合影、团建照片能降低陌生感。</p>
+            </figcaption>
+          </figure>
+          <div class="rounded border border-line bg-blue p-6 text-white">
+            <i data-lucide="camera" class="h-8 w-8"></i>
+            <h3 class="mt-5 text-xl font-bold">你需要准备的图片</h3>
+            <p class="mt-3 text-sm leading-6 text-white/80">每类至少1张，最好横图。照片文件名可以按 `presentation.jpg`、`experiment.jpg`、`competition.jpg`、`team.jpg` 命名。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="py-20">
+      <div class="mx-auto max-w-7xl px-5">
+        <div class="mb-10">
+          <h2 class="text-3xl font-bold md:text-4xl">研究方向</h2>
+          <p class="mt-4 max-w-3xl leading-7 text-muted">这一块不要写得太虚。每个方向最好配一句“学生可以做什么”。</p>
+        </div>
+        <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+          <div class="rounded border border-line bg-white p-5">
+            <i data-lucide="navigation" class="h-6 w-6 text-cyan"></i>
+            <h3 class="mt-4 font-bold">视觉导航</h3>
+            <p class="mt-2 text-sm leading-6 text-muted">图像定位、目标识别、环境感知、导航算法验证。</p>
+          </div>
+          <div class="rounded border border-line bg-white p-5">
+            <i data-lucide="scan-eye" class="h-6 w-6 text-cyan"></i>
+            <h3 class="mt-4 font-bold">先进光学传感</h3>
+            <p class="mt-2 text-sm leading-6 text-muted">光学系统、传感器设计、测量方法与工程应用。</p>
+          </div>
+          <div class="rounded border border-line bg-white p-5">
+            <i data-lucide="cloud-sun" class="h-6 w-6 text-cyan"></i>
+            <h3 class="mt-4 font-bold">大气与空间光学</h3>
+            <p class="mt-2 text-sm leading-6 text-muted">光传播、空间探测、复杂环境下的成像与感知。</p>
+          </div>
+          <div class="rounded border border-line bg-white p-5">
+            <i data-lucide="layers-3" class="h-6 w-6 text-cyan"></i>
+            <h3 class="mt-4 font-bold">多源信息融合</h3>
+            <p class="mt-2 text-sm leading-6 text-muted">视觉、惯性、光学等多传感数据融合与可靠感知。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="join" class="bg-ink py-20 text-white">
+      <div class="mx-auto grid max-w-7xl gap-10 px-5 lg:grid-cols-[0.9fr_1.1fr]">
+        <div>
+          <p class="text-sm font-semibold uppercase tracking-wider text-gold">Join Us</p>
+          <h2 class="mt-2 text-3xl font-bold md:text-4xl">适合什么样的同学？</h2>
+          <p class="mt-5 leading-7 text-white/70">如果你对科研有好奇心，愿意动手做实验、写代码、读论文、做汇报，这个页面就应该让你知道下一步怎么联系老师。</p>
+        </div>
+        <div class="grid gap-4 md:grid-cols-2">
+          <div class="rounded border border-white/15 bg-white/5 p-6">
+            <h3 class="font-bold">申请方向</h3>
+            <ul class="mt-4 space-y-3 text-sm text-white/75">
+              <li>• 硕士研究生 / 博士研究生</li>
+              <li>• 科研助理 / 本科生科研训练</li>
+              <li>• 自动化、光学、导航、图像处理、计算机等相关背景</li>
+            </ul>
+          </div>
+          <div class="rounded border border-white/15 bg-white/5 p-6">
+            <h3 class="font-bold">联系材料</h3>
+            <ul class="mt-4 space-y-3 text-sm text-white/75">
+              <li>• 个人简历</li>
+              <li>• 成绩单或代表性项目</li>
+              <li>• 简短说明感兴趣的研究方向</li>
+            </ul>
+          </div>
+          <div class="rounded bg-white p-6 text-ink md:col-span-2">
+            <p class="text-sm text-muted">联系邮箱</p>
+            <p class="mt-2 break-all text-2xl font-bold text-blue">请替换为老师真实邮箱</p>
+            <p class="mt-3 text-sm text-muted">邮件标题建议：姓名-学校-申请硕士/博士/科研助理-NRC实验室</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-line bg-white py-8 text-center text-sm text-muted">
+    <p class="font-semibold text-ink">NRC实验室 | 南京航空航天大学</p>
+    <p class="mt-2">请补充学院、办公室地址、导师主页或课题组联系方式。</p>
+  </footer>
+
+  <script>
+    if (window.lucide) {
+      lucide.createIcons();
+    }
+  </script>
+</body>
+</html>
